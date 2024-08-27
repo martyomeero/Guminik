@@ -1,0 +1,60 @@
+.jost-uniquifier {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Jost;
+    text-decoration: none;
+    /* color: $color_1; */
+    /* border: solid red; Para ver que se rompe al hacerlo responsive */
+  }
+
+
+
+
+
+/* ---------header----------- */
+.menu{
+    list-style: none;
+    background-color: rgb(216, 143, 143) ;
+    padding: 20px;
+}
+
+.menu .li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu li:hover ul{
+    display: block;
+}
+
+.menu ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: blue;
+}
+.a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: orange ;
+}
+
+.a:hover{
+    background-color: violet;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}

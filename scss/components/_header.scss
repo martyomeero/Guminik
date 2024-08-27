@@ -1,0 +1,42 @@
+
+
+
+.menu{
+    list-style: none;
+    background-color: red($color: #000000) ;
+    padding: 20px;
+
+    .menu li{
+        position: relative;
+        display: inline-block;
+
+        &:hover ul{
+            display: block;
+        }
+
+        .menu ul{
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: blue;
+
+            a{
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+                color: orange ;
+
+                &:hover{
+                    background-color: violet ;
+                }
+            }
+        }
+
+        a{
+            text-decoration: none;
+            padding: 10px;
+        }
+    }
+
+}
